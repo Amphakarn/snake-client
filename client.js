@@ -15,7 +15,9 @@ const connect = function () {
 
   conn.on('connect', () => {
     conn.write('Name: Bee');
-  });
+  }); 
+
+  
 
   // conn.on('connect', () => {
   //   for (let i = 0; i < 10; i++) {
